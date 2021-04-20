@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link href="styles/styles.css" rel="stylesheet" type="text/css">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <!-- <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"> -->
+        <!-- <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+        <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Manjari&display=swap" rel="stylesheet"> -->
+        <script src="https://kit.fontawesome.com/be7e40df55.js" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono|IBM+Plex+Sans&display=swap" rel="stylesheet">
+        <title>Proyecto PODCAST</title>
+    </head>
+
+    <body>
+        <header>
+            <span class="logo"><img src="images/logo.svg" alt="logo"></span>
+            <input type="checkbox" id="menu-bar" checked>
+            <label for="menu-bar"><img src="images/icono_menu.png" alt="menu"></label>
+            <nav class="menu">
+                <ul>
+                    <li><a href="#episodios">EPISODIOS</a></li>
+                    <li><a href="#phone">NOSOTROS</a></li>
+                    <li><a href="#entrevistas">ENTREVISTAS</a></li>
+                    <li><a href="#topicos">TÓPICOS</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!--Primer parrafo-->
+
+        <section class="primerparrafo">
+            <h1>
+                Hello <span class="tachado">world</span> <span></span>pale blue dot<span class="punto">.</span>
+            </h1>
+            <p class="parrafo"><span class="desktop">El portal de </span><span class="mobile">Un </span>podcats que explora el mundo de la programación<span class="desktop"> y
+                la tecnología</span>. Nuevos episodios, todos los jueves cada 15 días.
+            </p>
+            <button class="botonconocemas"><a class="conocemas">CONOCÉ MÁS</a></button>
+        </section>
+
+
+        <!--Canales de Spotify-->
+
+        <section id="episodios" class="gradienteazul1">
+            <h2>
+                Episodios
+            </h2>
+            <div class="matrizCanales">
+                <iframe src="https://open.spotify.com/embed-podcast/episode/7AZZy2nJ4R9ZndHW0h2yxt" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                <iframe src="https://open.spotify.com/embed-podcast/episode/1ezdL2ivAGLwSE6Xbssxqt" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                <iframe src="https://open.spotify.com/embed-podcast/episode/3cWta1iiQSfvrdHaCbLkSD" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                <iframe src="https://open.spotify.com/embed-podcast/episode/31VyAQAwBiKoHVoYUCEzjQ" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            </div>
+        </section>
+ 
+        <!--De donde venimos-->
+
+        <section id="nosotros">
+            <span>
+                <img id="phone" class="phone" src="images/phone.png" alt="Imagen de Noticia en un Telefono">
+            </span>
+            <span>
+                <h2 class="titulodedonde">
+                    De dónde venimos
+                </h2>
+                <div class="parrafodedonde">
+                    <p>
+                        Our posturings, our imagined self-importance,
+                        the delusion that we have some privileged
+                        position in the Universe, are challenged by this
+                        point of pale light.
+                    </p>
+                    <br>
+                    <p>   
+                        Our planet is a lonely speck in the great
+                        enveloping cosmic dark. In our obscurity, in all
+                        this vastness, there is no hint that help will
+                        come from elsewhere to save us from ourselves.
+                    </p>
+                </div>
+            </span>
+        </section>
+
+        <!--Invitados Estelares-->
+
+        <section id="entrevistas">
+            <h2>
+                Invitadas/os estelares
+            </h2>
+            <div class="imagenesinvitadas">
+                <img src="images/grace-hopper.png" alt="foto de Grace Hopper">
+                <img src="images/Katie-Bouman.png" alt="foto de Katie-Bouman">
+                <img src="images/Margaret_Hamilton.png" alt="foto de Margaret Hamilton">
+                <img src="images/AnE.R.A.Univac1103computerinthe1950s.png" alt="foto de computadora en 1950s">
+                <img src="images/ComputeroperatorswithanEniac—theworld’sfirstprogrammablegeneral-purposecomputer.png" alt="foto de primera computadora programable de proposito general">
+                <img src="images/susan-kare.png" alt="foto de Susan Karen">
+            </div>
+        </section>
+
+        <!--Algunos temas-->
+
+        <section id="topicos">
+            <h2>
+                Algunos de nuestros temas
+            </h2>
+            <div class="algunostemas">
+                <div><span><img src="images/icon1.svg" alt="Trabajo Remoto"><br>Trabajo remoto</span></div>
+                <div><span><img src="images/icon2.svg" alt="Repensado la programación"><br>Repensado la programación</span></div>
+                <div><span><img src="images/icon3.svg" alt="Bases del código"><br>Bases del código</span></div>
+                <div><span><img src="images/icon4.svg" alt="Seguridad informatica"><br>Seguridad informática</span></div>
+            </div>
+        </section>
+
+        <!--Ultimas Novedades-->
+
+        <section id="pruebas" class="gradienteazul2">
+            <h2 class="ultimasnovedades">
+                ¿Querés las útimas novedades?
+            </h2>
+            <br>
+            <button class="botonescucha"><a class="conocemas">ESCUCHÁ LOS EPISODIOS</a></button>
+        </section>
+
+        <!--Footer-->
+
+        <footer>
+            <span class="marcaregistrada">
+                © 2019— Hello blue pale dot
+            </span>
+            <span class="iconos">
+                <a href="https://www.spotify.com/ar/"><i class="fab fa-spotify"></i></a>
+                <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.twitter.com"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.facebook.com"><i class="fab fa-facebook"></i></a>
+                <a href="https://web.telegram.org/"><i class="fab fa-telegram"></i></a> 
+            </span>
+        </footer>
+
+    </body>
+
+</html>
